@@ -348,6 +348,10 @@ PRODUCT_PACKAGES += \
 # Parts
 $(call inherit-product, packages/apps/RealmeParts/parts.mk)
 
+# Perf
+PRODUCT_PACKAGES += \
+    libqti-perfd-client
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
