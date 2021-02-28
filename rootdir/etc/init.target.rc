@@ -55,7 +55,7 @@ on fs
     restorecon -R -F /mnt/vendor/persist/sensors
     write /sys/kernel/boot_adsp/boot 1
 
-on late-fs
+on post-fs
     # Start services for bootanim
     start servicemanager
     start surfaceflinger
