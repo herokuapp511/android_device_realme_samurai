@@ -219,11 +219,7 @@ PRODUCT_PACKAGES += \
 
 # fingerprint (IFAA)
 PRODUCT_PACKAGES += \
-    IFAAService \
-    ifaamanager
-
-#PRODUCT_BOOT_JARS += \
-    ifaamanager
+    IFAAService
 
 # Framework Detect
 PRODUCT_PACKAGES += \
