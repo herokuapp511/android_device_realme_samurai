@@ -158,6 +158,9 @@ PRODUCT_PACKAGES += \
     libcamera_metadata_shim \
     vendor.qti.hardware.camera.device@1.0.vendor
 
+# Charateristics
+PRODUCT_CHARACTERISTICS := nosdcard
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend
@@ -316,6 +319,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio-keys.kl
 
 # Media
+GENERIC_ODM_IMAGE := true
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles_vendor.xml:system/etc/media_profiles_vendor.xml \
     $(LOCAL_PATH)/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
