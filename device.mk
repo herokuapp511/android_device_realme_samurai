@@ -32,6 +32,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigRes \
     FrameworksRes \
+    NfcRes \
     SettingsProviderRes \
     SettingsRes \
     SimpleDeviceConfigCommon \
