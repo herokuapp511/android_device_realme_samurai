@@ -49,6 +49,7 @@ void vendor_load_properties()
         property_override(prop_name.c_str(), value.c_str(), false);
     };
 
+    std::string device;
     char const *operator_name_file = "/proc/oppoVersion/operatorName";
     std::string operator_name;
 
@@ -57,14 +58,19 @@ void vendor_load_properties()
         if ((Trim(operator_name) == "5")) {
            for (const auto &source : ro_props_default_source_order) {
                set_ro_product_prop(source, "device", "RMX1931L1");
+               device = "RMX1931L1";
            }
         /* CHINA */
         } else if ((Trim(operator_name) == "8")) {
            for (const auto &source : ro_props_default_source_order) {
                set_ro_product_prop(source, "device", "RMX1931CN");
+               device = "RMX1931CN";
            }
         } else {
         LOG(ERROR) << "Unsupported variant";
         }
     }
+
+    property_override("ro.boot.hardware.sku", device.c_str());
+    property_override("ro.boot.product.hardware.sku", device.c_str());
 }
