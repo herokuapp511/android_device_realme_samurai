@@ -354,8 +354,7 @@ $(call inherit-product, packages/apps/RealmeParts/parts.mk)
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti \
-    vendor.qti.hardware.perf@2.2.vendor
+    android.hardware.power-service-qti
 
 # Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
