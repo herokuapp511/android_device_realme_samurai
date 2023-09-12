@@ -66,10 +66,6 @@ persist.front.skipdisplay.enable=1
 ro.vendor.display.sensortype=2
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/OPPO_OLED_AD_calib.cfg
 
-# IOP
-vendor.iop.enable_prefetch_ofr=1
-vendor.iop.enable_uxe=1
-
 # IWLAN
 persist.data.iwlan.enable=true
 persist.data.iwlan.rekey=4294967295
