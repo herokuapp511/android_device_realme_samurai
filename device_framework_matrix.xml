@@ -150,6 +150,14 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.lineage.touch</name>
+        <version>1.0</version>
+        <interface>
+            <name>ITouchscreenGesture</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.radio.qcrilhook</name>
         <version>1.0-2</version>
         <interface>
