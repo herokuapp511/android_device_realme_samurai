@@ -100,6 +100,10 @@ on boot
     setprop vendor.usb.controller a600000.dwc3
     setprop sys.usb.configfs 1
 
+    # Hide permissive selinux
+    chmod 0640 /sys/fs/selinux/enforce
+    chmod 0440 /sys/fs/selinux/policy
+
 on boot && property:persist.vendor.usb.controller.default=*
     setprop vendor.usb.controller ${persist.vendor.usb.controller.default}
 
