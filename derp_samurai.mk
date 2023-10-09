@@ -11,6 +11,9 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 EXTRA_UDFPS_ANIMATIONS := true
 USE_LEGACY_BOOTANIMATION := true
 
+# GMS
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := samurai
