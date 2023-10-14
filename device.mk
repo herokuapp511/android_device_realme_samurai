@@ -222,7 +222,11 @@ TARGET_HAS_UDFPS := true
 
 # fingerprint (IFAA)
 PRODUCT_PACKAGES += \
-    IFAAService
+    IFAAService \
+    ifaamanager
+
+#PRODUCT_BOOT_JARS += \
+    ifaamanager
 
 # Framework Detect
 PRODUCT_PACKAGES += \
