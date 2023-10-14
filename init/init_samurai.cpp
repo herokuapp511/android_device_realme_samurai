@@ -67,9 +67,4 @@ void vendor_load_properties()
         LOG(ERROR) << "Unsupported variant";
         }
     }
-
-    #ifdef __ANDROID_RECOVERY__
-    property_override("ro.debuggable", "1");
-    property_override("ro.adb.secure.recovery", "0");
-    #endif
 }
