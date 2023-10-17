@@ -13,7 +13,7 @@
 <resources>
     <bool name="nfcc_always_on_allowed">false</bool>
     <string-array name="config_skuSupportsSecureNfc">
-        <item>RMX1931</item>
         <item>RMX1931L1</item>
+        <item>RMX1931CN</item>
     </string-array>
 </resources>
