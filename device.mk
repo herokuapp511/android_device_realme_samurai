@@ -162,6 +162,10 @@ PRODUCT_PACKAGES += \
     libcamera_metadata_shim \
     vendor.qti.hardware.camera.device@1.0.vendor
 
+#Latest GCamGOPrebuilt packages (Stable)
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V3_8
+
 # Charateristics
 PRODUCT_CHARACTERISTICS := nosdcard
 
