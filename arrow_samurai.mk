@@ -6,8 +6,8 @@
 
 $(call inherit-product, device/realme/samurai/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit common ArrowOS configurations
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # GMS
 #$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
@@ -17,7 +17,7 @@ PRODUCT_BRAND := realme
 PRODUCT_DEVICE := samurai
 PRODUCT_MANUFACTURER := realme
 PRODUCT_MODEL := realme X2 Pro
-PRODUCT_NAME := lineage_samurai
+PRODUCT_NAME := arrow_samurai
 
 BUILD_FINGERPRINT := "realme/RMX1931/RMX1931L1:11/RKQ1.200928.002/1625457120608:user/release-keys"
 
@@ -27,3 +27,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1931"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
+
+# ArrowOS additions
+DEVICE_MAINTAINER := nayem8854

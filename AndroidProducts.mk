@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_samurai.mk
+    $(LOCAL_DIR)/arrow_samurai.mk
+
+COMMON_LUNCH_CHOICES := \
+    arrow_samurai-eng \
+    arrow_samurai-userdebug \
+    arrow_samurai-user
