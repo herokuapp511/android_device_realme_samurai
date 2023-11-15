@@ -33,9 +33,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage \
     $(LOCAL_PATH)/overlay-system
 
-# supports Per-App Refresh Rate
+# OPlus Extras Packeges
 PRODUCT_PACKAGES += \
-    OPlusExtrasResTarget
+    OPlusExtrasResTarget \
+    OPlusSettingsResTarget
 
 # Permissions
 PRODUCT_COPY_FILES += \
