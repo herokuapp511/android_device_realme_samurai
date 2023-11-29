@@ -6,3 +6,4 @@
 runtime_resource_overlay {
     name: "OPlusExtrasResTarget",
     device_specific: true,
+}
