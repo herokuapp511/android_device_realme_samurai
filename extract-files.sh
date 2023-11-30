@@ -54,6 +54,9 @@ function blob_fixup() {
         odm/lib64/libgf_hal_G3.so)
             sed -i "s|/sys/kernel/oplus_display/|/sys/kernel//oppo_display/|g" "${2}"
             ;;
+        odm/etc/dolby/multimedia_dolby_dax_default.xml)
+            sed -i "/volume-leveler-enable/ s/true/false/g" "${2}"
+            ;;
         system_ext/etc/permissions/qcrilhook.xml)
             ;&
         system_ext/etc/permissions/qti_libpermissions.xml)

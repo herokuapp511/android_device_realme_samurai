@@ -12,3 +12,8 @@ attribute hal_engsensor_server;
 attribute hal_syshelper;
 attribute hal_syshelper_client;
 attribute hal_syshelper_server;
+
+# Dolby
+attribute hal_dms;
+attribute hal_dms_client;
+attribute hal_dms_server;

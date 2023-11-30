@@ -205,6 +205,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@3.0 \
     vendor.qti.hardware.display.mapper@4.0.vendor
 
+# Dolby Manager
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/media/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml
+
+PRODUCT_PACKAGES += \
+    DolbyManager
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
