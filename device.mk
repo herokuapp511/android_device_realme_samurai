@@ -24,6 +24,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 RELAX_USES_LIBRARY_CHECK := true
 
+# GalleryPhotoManager
+PRODUCT_PACKAGES += \
+    GalleryPhotoManager
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
@@ -40,6 +44,8 @@ PRODUCT_PACKAGES += \
     TelephonyRes \
     TetheringRes \
     WifiRes
+
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # Permissions
 PRODUCT_COPY_FILES += \
