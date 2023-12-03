@@ -1000,20 +1000,20 @@ odm/lib64/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so|403794f5aa711bb
 odm/lib64/vendor.oplus.hardware.commondcs@1.0.so|df560b924181bd96ec8927c9d4076a4028cf7dde
 odm/lib64/vendor.oplus.hardware.performance@1.0.so|0602bd258e2efca1d72e6d16ac54eaed986c011c
 
-# OPLUS - Keybox
-odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
-odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc
-odm/lib64/libqsee_keybox_ca.so
-odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so
-odm/vendor/firmware/cryptoeng.b00
-odm/vendor/firmware/cryptoeng.b01
-odm/vendor/firmware/cryptoeng.b02
-odm/vendor/firmware/cryptoeng.b03
-odm/vendor/firmware/cryptoeng.b04
-odm/vendor/firmware/cryptoeng.b05
-odm/vendor/firmware/cryptoeng.b06
-odm/vendor/firmware/cryptoeng.b07
-odm/vendor/firmware/cryptoeng.mdt
+# OPLUS - Keybox - from OP4A89 SKQ1.211113.001
+odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service|29cc2d6e0b8df716237b4aed7d1f600d763741b6
+odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc|a89bc7faa1d28f68e5367f13f62b66c132076451
+odm/lib64/libqsee_keybox_ca.so|a94b95a303d04e87c6222e0bcaca6371d1fe81c3
+odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so|4f6d4fadf72d9ba3ea858db7e904e17e09c08665
+odm/vendor/firmware/cryptoeng.b00|777393789a4ca9e8c1b83f2882f814ad2834e678
+odm/vendor/firmware/cryptoeng.b01|c80884b79b5fd76e8bdcc8d371b9c5a97dcda899
+odm/vendor/firmware/cryptoeng.b02|8ddde228c11c1b19a7774bebf0e40148171d799c
+odm/vendor/firmware/cryptoeng.b03|ce154629f7a61b127a3511dd85aeca6e1b59c781
+odm/vendor/firmware/cryptoeng.b04|7dfb386a3eb77d7e1e7c66ca3c2b1a6de3838402
+odm/vendor/firmware/cryptoeng.b05|a71077670d350660bb6640a2b7e4a0ddce97d956
+odm/vendor/firmware/cryptoeng.b06|7f34e194858b3b7fc2f1e46635a636945061aefc
+odm/vendor/firmware/cryptoeng.b07|cf10f53d3ebab226c5fdcdd816be257f10ea2377
+odm/vendor/firmware/cryptoeng.mdt|807b99e9da90af8f4b2ebaa44509f96c8549cf53
 
 # OPLUS - orms - from OP4A89 SKQ1.211113.001
 odm/lib64/libormshalclient.so|6789104204186cba5f78faa47067c9355c7f4ab5
