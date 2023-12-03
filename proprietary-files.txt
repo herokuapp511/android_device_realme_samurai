@@ -11,19 +11,19 @@ odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# ADSP
-vendor/bin/adsprpcd
-vendor/bin/loadalgo
-vendor/etc/init/vendor.qti.adsprpc-service.rc
-vendor/lib/libadsp_default_listener.so
-vendor/lib/libadsprpc.so
-vendor/lib/libfastrpc_utf_stub.so
-vendor/lib/libmdsprpc.so
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libfastrpc_utf_stub.so
-vendor/lib64/libloadalgo_stub.so
-vendor/lib64/libmdsprpc.so
+# ADSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/adsprpcd|12e09d8e87b260a8721c7938890186a0877a9e85
+vendor/bin/loadalgo|d8fd380236562c7a5d0be38fc2ba729b5fd3f6be
+vendor/etc/init/vendor.qti.adsprpc-service.rc|4c7662eee83760391bcaf616f9c2184f8346f2c1
+vendor/lib/libadsp_default_listener.so|49d7644708419ea077ffd9d00901ebf6cdd4377c
+vendor/lib/libadsprpc.so|2c45baa7c6a8743f7e433a25fc40aff0e6827c65
+vendor/lib/libfastrpc_utf_stub.so|96641c3b58f7130770f3bfc1663d80cae9385b65
+vendor/lib/libmdsprpc.so|aa282b4586db545af420aeaa8db56d295458c8fa
+vendor/lib64/libadsp_default_listener.so|3ebcf635d6cdc447b8ecd40ea76bda39bf82c308
+vendor/lib64/libadsprpc.so|23f060277d2d62556ececafdd302f5c9ed04e71b
+vendor/lib64/libfastrpc_utf_stub.so|9fa74369a4c53850f74385e8c24a44399fe28917
+vendor/lib64/libloadalgo_stub.so|b360d83c80c96e6f461840b25f5d0f79dc8d44c6
+vendor/lib64/libmdsprpc.so|8809bf6a1205973af25b5fc70a6fbef51b19d4cc
 
 # ADSP modules
 odm/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so:vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
@@ -400,17 +400,17 @@ vendor/bin/hw/vendor.qti.hardware.seccam@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.seccam@1.0-service-qti.rc
 vendor/lib64/vendor.qti.hardware.seccam@1.0.so
 
-# CDSP
-vendor/bin/cdsprpcd
-vendor/lib/libcdsp_default_listener.so
-vendor/lib/libcdsprpc.so
-vendor/lib/libfastcrc.so
-vendor/lib/libsdsprpc.so
-vendor/lib/libsysmon_cdsp_skel.so
-vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libcdsprpc.so
-vendor/lib64/libsdsprpc.so
-vendor/lib64/libsysmon_cdsp_skel.so
+# CDSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/cdsprpcd|530bcfcf9a31dedcc6c8ff5ea33fbaf8c03ab877
+vendor/lib/libcdsp_default_listener.so|6a3f97faf26da3d01f7895d37c09c8bc62030e0a
+vendor/lib/libcdsprpc.so|4e96a58922494800b65ac0f269db23fd7aeb3ae3
+vendor/lib/libfastcrc.so|4048d4789828d7e356a2ace7d9a83db92e458173
+vendor/lib/libsdsprpc.so|5840457471e6ec0be98be444018134ad449627f1
+vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
+vendor/lib64/libcdsp_default_listener.so|81e5f4737bfb7e2f0a906183b2a8357a5053ee5c
+vendor/lib64/libcdsprpc.so|c9eb743013b62cdfa13eaf1f9c29945d2d3de826
+vendor/lib64/libsdsprpc.so|3955edaff3a2950999f14b0b45c0507bb22a7410
+vendor/lib64/libsysmon_cdsp_skel.so|8a951e039071107317e0e7541ff4df7ad35d87ad
 
 # Charger
 odm/firmware/fastchg/19781/oplus_vooc_fw.bin:vendor/firmware/fastchg/19781/oppo_vooc_fw.bin
@@ -564,12 +564,12 @@ vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 
-# DSP
-vendor/bin/dspservice
-vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
-vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
-vendor/lib/vendor.qti.hardware.dsp@1.0.so
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so
+# DSP - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
+vendor/bin/dspservice|a7344fc3d27a49df30858ebc3f73ee5818e752d4
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|bec8d99fd7f943a8fbf1239fa6793311ceadf93e
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|0af387d416acf6d697b9edd4090e3a6941696970
 
 # Eyeprotect data
 odm/etc/samsung1024_sofef03f_m_eyeprotect_data.xml
