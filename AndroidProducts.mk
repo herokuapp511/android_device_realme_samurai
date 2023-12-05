@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_samurai.mk
+    $(LOCAL_DIR)/aosp_samurai.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_samurai-user \
+    aosp_samurai-userdebug \
+    aosp_samurai-eng
