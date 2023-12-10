@@ -28,6 +28,12 @@ RELAX_USES_LIBRARY_CHECK := true
 PRODUCT_PACKAGES += \
     GalleryPhotoManager
 
+# SettingsIntellegence
+ifneq ($(AFTERLIFE_GAPPS),true)
+    PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/prebuilts/SettingsIntelligence/config/permissions/privapp-permissions-rosy-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-rosy-product.xml
+endif
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
