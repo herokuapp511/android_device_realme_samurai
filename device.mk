@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
+
 TARGET_DEVICE := samurai
 
 # Inherit from those products. Most specific first.
@@ -31,7 +34,7 @@ PRODUCT_PACKAGES += \
 # SettingsIntellegence
 ifneq ($(AFTERLIFE_GAPPS),true)
     PRODUCT_COPY_FILES += \
-        $(LOCAL_PATH)/prebuilts/SettingsIntelligence/config/permissions/privapp-permissions-rosy-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-rosy-product.xml
+        $(LOCAL_PATH)/prebuilts/SettingsIntelligence/config/permissions/privapp-permissions-samurai-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-samurai-product.xml
 endif
 
 # Overlays
