@@ -13,7 +13,7 @@ $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 AFTERLIFE_CORE := true
 AFTERLIFE_GAPPS := true
 USE_PIXEL_CHARGING =: true
-AFTERLIFE_MAINTAINER := nayem
+AFTERLIFE_MAINTAINER := Nayem
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USE_GOOGLE_TELEPHONY := false
