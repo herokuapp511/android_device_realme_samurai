@@ -9,6 +9,20 @@ $(call inherit-product, device/realme/samurai/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Matrixx
+MATRIXX_BUILD_TYPE := Official
+MATRIXX_MAINTAINER := Nayem
+MATRIXX_CHIPSET := SM8150
+MATRIXX_BATTERY := 4000mAh
+MATRIXX_DISPLAY := 1080x2400
+WITH_GAPPS := false
+
+#AUDIOFX
+TARGET_EXCLUDES_AUDIOFX := true
+
+#Device has UDFPS:
+TARGET_HAS_UDFPS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := samurai
