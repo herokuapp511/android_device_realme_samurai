@@ -221,10 +221,6 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3.vendor \
     libshims_fingerprint.samurai
 
-# fingerprint (IFAA)
-PRODUCT_PACKAGES += \
-    IFAAService
-
 # Framework Detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
@@ -407,7 +403,7 @@ PRODUCT_COPY_FILES += \
 
 # QNS
 PRODUCT_PACKAGES += \
-    libstdc++.vendor
+    libstdc++_vendor
 
 # QTI
 PRODUCT_COPY_FILES += \
